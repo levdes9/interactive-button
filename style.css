@@ -1,0 +1,32 @@
+
+/* Basic container styling */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Default button style */
+.interactive-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover state */
+.interactive-button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+/* Pressed (active) state */
+.interactive-button:active {
+    background-color: #3e8e41;
+    transform: scale(0.95); /* Makes the button slightly smaller when pressed */
+}
